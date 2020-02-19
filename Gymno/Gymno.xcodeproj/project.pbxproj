@@ -15,6 +15,7 @@
 		6E326E0A23FDE16100F81E02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E326E0823FDE16100F81E02 /* LaunchScreen.storyboard */; };
 		6E326E1523FDE16100F81E02 /* GymnoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E326E1423FDE16100F81E02 /* GymnoTests.swift */; };
 		6E326E2023FDE16200F81E02 /* GymnoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E326E1F23FDE16200F81E02 /* GymnoUITests.swift */; };
+		6E326E2E23FDE26600F81E02 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E326E2D23FDE26600F81E02 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		6E326E1B23FDE16200F81E02 /* GymnoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GymnoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E326E1F23FDE16200F81E02 /* GymnoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymnoUITests.swift; sourceTree = "<group>"; };
 		6E326E2123FDE16200F81E02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E326E2D23FDE26600F81E02 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				6E326E0323FDE16100F81E02 /* Assets.xcassets */,
 				6E326E0823FDE16100F81E02 /* LaunchScreen.storyboard */,
 				6E326E0B23FDE16100F81E02 /* Info.plist */,
+				6E326E2D23FDE26600F81E02 /* GoogleService-Info.plist */,
 				6E326E0523FDE16100F81E02 /* Preview Content */,
 			);
 			path = Gymno;
@@ -243,6 +246,7 @@
 				6E326E0A23FDE16100F81E02 /* LaunchScreen.storyboard in Resources */,
 				6E326E0723FDE16100F81E02 /* Preview Assets.xcassets in Resources */,
 				6E326E0423FDE16100F81E02 /* Assets.xcassets in Resources */,
+				6E326E2E23FDE26600F81E02 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
