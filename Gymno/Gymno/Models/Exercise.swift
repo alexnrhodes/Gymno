@@ -7,3 +7,19 @@
 //
 
 import Foundation
+
+struct Exercise {
+    let name: String
+    let id: UUID
+    let instructions: String
+    let sets: Int
+    let reps: Int
+    
+    init(name: String, id: UUID, instructions: String, sets: Int, reps: Int) {
+        self.name = name
+        self.id = id
+        self.instructions = instructions
+        self.sets = sets
+        self.reps = reps
+    }
+}
