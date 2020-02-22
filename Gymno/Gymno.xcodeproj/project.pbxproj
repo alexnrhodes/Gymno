@@ -16,6 +16,7 @@
 		6E326E1523FDE16100F81E02 /* GymnoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E326E1423FDE16100F81E02 /* GymnoTests.swift */; };
 		6E326E2023FDE16200F81E02 /* GymnoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E326E1F23FDE16200F81E02 /* GymnoUITests.swift */; };
 		6E326E2E23FDE26600F81E02 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E326E2D23FDE26600F81E02 /* GoogleService-Info.plist */; };
+		6E326E332400AA4D00F81E02 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E326E322400AA4D00F81E02 /* Exercise.swift */; };
 		AA0681D7BD49237EAFA07B85 /* Pods_Gymno_GymnoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CAF6D8E4189B29C04BB559E /* Pods_Gymno_GymnoUITests.framework */; };
 		F5478FD9B05F14789A6CBB6D /* Pods_GymnoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7318DFC63DBAF7D62DD85F /* Pods_GymnoTests.framework */; };
 		F90D8D597335825FCA1199D9 /* Pods_Gymno.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F1F5EDED23EBA934736989 /* Pods_Gymno.framework */; };
@@ -59,6 +60,7 @@
 		6E326E1F23FDE16200F81E02 /* GymnoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymnoUITests.swift; sourceTree = "<group>"; };
 		6E326E2123FDE16200F81E02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E326E2D23FDE26600F81E02 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6E326E322400AA4D00F81E02 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 		7CAF6D8E4189B29C04BB559E /* Pods_Gymno_GymnoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gymno_GymnoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6EF421D87D215230DA2E80F /* Pods-Gymno.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gymno.debug.xcconfig"; path = "Target Support Files/Pods-Gymno/Pods-Gymno.debug.xcconfig"; sourceTree = "<group>"; };
 		CF7318DFC63DBAF7D62DD85F /* Pods_GymnoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GymnoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +120,7 @@
 		6E326DFC23FDE15D00F81E02 /* Gymno */ = {
 			isa = PBXGroup;
 			children = (
+				6E326E312400AA3B00F81E02 /* Models */,
 				6E326E302400A9D200F81E02 /* SwiftUI */,
 				6E326E2F2400A9C900F81E02 /* Resources */,
 				6E326E0523FDE16100F81E02 /* Preview Content */,
@@ -170,6 +173,14 @@
 				6E326E0123FDE15D00F81E02 /* ContentView.swift */,
 			);
 			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		6E326E312400AA3B00F81E02 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6E326E322400AA4D00F81E02 /* Exercise.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		7341483FC1F00A46B8FA17E9 /* Frameworks */ = {
@@ -436,6 +447,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E326DFE23FDE15D00F81E02 /* AppDelegate.swift in Sources */,
+				6E326E332400AA4D00F81E02 /* Exercise.swift in Sources */,
 				6E326E0023FDE15D00F81E02 /* SceneDelegate.swift in Sources */,
 				6E326E0223FDE15D00F81E02 /* ContentView.swift in Sources */,
 			);
